@@ -1,5 +1,3 @@
-package reskillcode;
-
 
 public class Glicko_Rating_Method {
 
