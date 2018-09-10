@@ -1,5 +1,3 @@
-package reskillcode;
-
 /**
  * @author Chairi Kiourt
  */
@@ -48,8 +46,5 @@ public class Elo_Rating_Method {
         int newRating = calcTheNewRating(rating, score, expectedScore, kFactor);
         return newRating;
     }
-
-    ///////////////////////////////////////////////////////////////////////////// 
-
-
+ ///////////////////////////////////////////////////////////////////////////// 
 }
