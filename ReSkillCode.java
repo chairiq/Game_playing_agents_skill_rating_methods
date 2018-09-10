@@ -1,6 +1,3 @@
-package reskillcode;
-
-
 /**
  *
  * @author chairi
