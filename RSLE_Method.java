@@ -10,7 +10,7 @@ public class RSLE_Method {
 
         int firstAgentScore = 1;
         int secondAgentScore = -1;
-        if (draw) { //if the game is draw give 0.5 score in both agents
+        if (draw) { //if the game is draw give 0 point to both agents
             firstAgentScore = secondAgentScore = 0;
         }
         int a =f_rating + firstAgentScore;
