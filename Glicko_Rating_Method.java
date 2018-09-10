@@ -76,7 +76,6 @@ public class Glicko_Rating_Method {
         double phiStar = calculateNewRD(phi, newSigma);
         double newPhi = 1.0 / Math.sqrt((1.0 / Math.pow(phiStar, 2)) + (1.0 / v));
         double newRate = convRating2Glicko2Scale(a_Rating) + (Math.pow(newPhi, 2) * outcomeBasedRating(thescore, a_Rating, b_Rating, b_DV));
-        //System.out.println("xaxaxa----->"+newRate);
         double new_DV = newPhi;
         counter++;
 
