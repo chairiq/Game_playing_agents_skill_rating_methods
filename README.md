@@ -13,33 +13,33 @@ RSLE_Method rsleRating = new RSLE_Method();
 ### Rate agents
 Every methods requires some variables (previous knowledge about agent's ratings if exist) and returns an array with the result
 
-#### 1) _ _ Example for Glicko rating methods _ _
+#### 1) Example for Glicko rating methods
 ```
 String[] result_1 = glickoRating.makeGlickoRating4BothAgents("Agent1", 1705.1, 350.0, 0.06, 0, "Agent2", 2400.0, 350.0, 0.06, 0, false);
 System.out.println("Glicko (" + result_1[0] + " / Rating - " + result_1[1] + " / Deviation - " + result_1[2] + " / Volatility - " + result_1[3] + " / Game Counter - " + result_1[4]+")  ");
 ```
-**Output**
+** _Output_ **
 ```
 Glicko (Agent1 / Rating - 2103.297163389733 / Deviation - 332.41924131858246 / Volatility - 0.060003969682930675 / Game Counter - 1) 
 ```
 
-#### 2) _ _ Example for Elo rating methods _ _
+#### 2) Example for Elo rating methods 
 ```
-String[] e_re1 = eloRating.makeElorating4BothAgents("Agent1", 1000, "Agent2", 1000, false);
-System.out.println("Elo (" + e_re1[0] + " / Rating - " + e_re1[1]+") ");
+String[] result_2 = eloRating.makeElorating4BothAgents("Agent1", 1000, "Agent2", 1000, false);
+System.out.println("Elo (" + result_2[0] + " / Rating - " + result_2[1]+") ");
 ```
-**Output**
+**_Output_**
 ```
-Elo (Agent1 / Rating - 1016)  RSLE (Agent1 / Rating - 204)  
+Elo (Agent1 / Rating - 1016) 
 ```
 
 
-#### 3) _ _ Example for RSLE rating methods _ _
+#### 3) Example for RSLE rating methods
 ```
-String[] result_1 = glickoRating.makeGlickoRating4BothAgents("Agent1", 1705.1, 350.0, 0.06, 0, "Agent2", 2400.0, 350.0, 0.06, 0, false);
-System.out.println("Glicko (" + g_re1[0] + " / Rating - " + g_re1[1] + " / Deviation - " + g_re1[2] + " / Volatility - " + g_re1[3] + " / Game Counter - " + g_re1[4]+")  ";
+String[] result_3 = rsleRating.makeRSLErating4BothAgents("Agent1", 203, "Agent2", 500, false);
+System.out.println(" RSLE ("+ r_re1[0] + " / Rating - " + r_re1[1]+") ");
 ```
-**Output**
+**_Output_**
 ```
-Glicko (Agent1 / Rating - 2103.297163389733 / Deviation - 332.41924131858246 / Volatility - 0.060003969682930675 / Game Counter - 1) 
+RSLE (Agent1 / Rating - 204) 
 ```
