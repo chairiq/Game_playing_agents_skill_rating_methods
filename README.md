@@ -18,7 +18,7 @@ Every methods requires some variables (previous knowledge about agent's ratings 
 String[] result_1 = glickoRating.makeGlickoRating4BothAgents("Agent1", 1705.1, 350.0, 0.06, 0, "Agent2", 2400.0, 350.0, 0.06, 0, false);
 System.out.println("Glicko (" + result_1[0] + " / Rating - " + result_1[1] + " / Deviation - " + result_1[2] + " / Volatility - " + result_1[3] + " / Game Counter - " + result_1[4]+")  ");
 ```
-** _Output_ **
+**_Output_**
 ```
 Glicko (Agent1 / Rating - 2103.297163389733 / Deviation - 332.41924131858246 / Volatility - 0.060003969682930675 / Game Counter - 1) 
 ```
