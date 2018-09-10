@@ -37,7 +37,7 @@ Elo (Agent1 / Rating - 1016)
 #### 3) Example for RSLE rating methods
 ```
 String[] result_3 = rsleRating.makeRSLErating4BothAgents("Agent1", 203, "Agent2", 500, false);
-System.out.println(" RSLE ("+ r_re1[0] + " / Rating - " + r_re1[1]+") ");
+System.out.println(" RSLE ("+ result_3[0] + " / Rating - " + result_3[1]+") ");
 ```
 **_Output_**
 ```
