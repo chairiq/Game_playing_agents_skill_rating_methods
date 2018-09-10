@@ -1,6 +1,4 @@
 
-package reskillcode;
-
 /**
  *
  * @author ipet
@@ -18,6 +16,5 @@ public class RSLE_Method {
         String[] result = {f_name, Integer.toString(a), s_name, Integer.toString(b)};
 
         return result;
-    }
-    
+    }    
 }
