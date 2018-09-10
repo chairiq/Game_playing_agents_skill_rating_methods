@@ -13,7 +13,28 @@ RSLE_Method rsleRating = new RSLE_Method();
 ### Rate agents
 Every methods requires some variables (previous knowledge about agent's ratings if exist) and returns an array with the result
 
-#### Example for Glicko rating methods
+#### 1) __Example for Glicko rating methods__
+```
+String[] result_1 = glickoRating.makeGlickoRating4BothAgents("Agent1", 1705.1, 350.0, 0.06, 0, "Agent2", 2400.0, 350.0, 0.06, 0, false);
+System.out.println("Glicko (" + g_re1[0] + " / Rating - " + g_re1[1] + " / Deviation - " + g_re1[2] + " / Volatility - " + g_re1[3] + " / Game Counter - " + g_re1[4]+")  ";
+```
+**Output**
+```
+Glicko (Agent1 / Rating - 2103.297163389733 / Deviation - 332.41924131858246 / Volatility - 0.060003969682930675 / Game Counter - 1) 
+```
+
+#### 2) Example for Elo rating methods
+```
+String[] result_1 = glickoRating.makeGlickoRating4BothAgents("Agent1", 1705.1, 350.0, 0.06, 0, "Agent2", 2400.0, 350.0, 0.06, 0, false);
+System.out.println("Glicko (" + g_re1[0] + " / Rating - " + g_re1[1] + " / Deviation - " + g_re1[2] + " / Volatility - " + g_re1[3] + " / Game Counter - " + g_re1[4]+")  ";
+```
+**Output**
+```
+Glicko (Agent1 / Rating - 2103.297163389733 / Deviation - 332.41924131858246 / Volatility - 0.060003969682930675 / Game Counter - 1) 
+```
+
+
+#### 3) Example for RSLE rating methods
 ```
 String[] result_1 = glickoRating.makeGlickoRating4BothAgents("Agent1", 1705.1, 350.0, 0.06, 0, "Agent2", 2400.0, 350.0, 0.06, 0, false);
 System.out.println("Glicko (" + g_re1[0] + " / Rating - " + g_re1[1] + " / Deviation - " + g_re1[2] + " / Volatility - " + g_re1[3] + " / Game Counter - " + g_re1[4]+")  ";
