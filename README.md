@@ -45,7 +45,8 @@ RSLE (Agent1 / Rating - 204)
 ```
 ## Further information
 
-**You can find in the following papers**
+**Addition information and instructions can be found at the following papers, which can be used also, to cite our work!**
 - Kiourt, C., Kalles, D., and Pavlidis, G..: Rating Synthetic Agents' Skill in Competitive Multi Agent Environments, Knowledge and Information Systems, 2018, DOI:[http://dx.doi.org/10.1007/s10115-018-1234-6]
-- C Kiourt C., G Pavlidis G. and Kalles D., ReSkill: Relative Skill-Level Calculation System, 9th Hellenic Conference on Artificial Intelligence (SETN2016), pp. 0-0, May 18-20, Thessaloniki, Greece, 2016.
-- C Kiourt C., Kalles D. and G Pavlidis G., Human Rating Methods on Multi-agent Systems, Multi-Agent Systems and Agreement Technologies, pp. 129-136, 2015.
+- C Kiourt C., G Pavlidis G. and Kalles D., ReSkill: Relative Skill-Level Calculation System, 9th Hellenic Conference on Artificial Intelligence (SETN2016), pp. 0-0, May 18-20, Thessaloniki, Greece, 2016, DOI:[https://doi.org/10.1145/2903220.2903224]
+- C Kiourt C., Kalles D. and G Pavlidis G., Human Rating Methods on Multi-agent Systems, Multi-Agent Systems and Agreement Technologies, pp. 129-136, 2015, DOI:[https://doi.org/10.1007/978-3-319-33509-4_11]
+
